@@ -1,0 +1,96 @@
+/* {
+	border: 1px dashed blue;
+}*/
+
+body {
+	background: url('images/sky.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size:cover;
+	color: black;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-family: sans-serif;
+	margin: 2%;
+}
+
+div {
+	border-radius: 5px;
+	padding: 1.5%;
+}
+
+#header {
+	background-color: rgba(255, 255, 255, 0.40);
+	position: relative;
+	text-align: right;
+
+}
+
+#container {
+	background-color: red;
+}
+
+.left-sidebar {
+	background-color: #000066;
+	float: left;
+	width: 25%;
+	color: #e0e0e0;
+	height: 100%;
+}
+
+.left-sidebar a {
+	color: #f8f8f8;
+}
+
+.center {
+	background-color: #f8f8f8;
+	float: right;
+	width: 68%;
+}
+
+#footer {
+	background-color: rgba(255, 255, 255, 0.40);
+	clear: both;
+	text-align: center;
+	font-family: cursive;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+p {
+	padding-bottom: 8px;
+}
+
+li {
+	padding-bottom: 2px;
+}
+
+h1 {
+	font-size: 20px;
+	text-decoration: underline;
+	padding-top: 8px;
+	padding-bottom: 5px;
+}
+
+h2 {
+	font-size: 16px;
+	text-align: right;
+	padding: 5px;
+}
+
+#header h1 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 16px;
+	text-align: center;
+}
+
+header a {
+	color: black;
+}
